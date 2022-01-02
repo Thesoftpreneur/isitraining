@@ -5,5 +5,5 @@ export const Note = styled.p`
 color: ${COMPOSITION_CONFIG.TEXT.COLOR.REGULAR};
 font-size: ${COMPOSITION_CONFIG.TEXT.FONT_SIZE.SMALL};
 font-weight: 300;
-font-family: "Comic Sans MS, cursive, sans-serif";
+font-family: Comic Sans MS, cursive, sans-serif;
 `

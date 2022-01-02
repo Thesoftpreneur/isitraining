@@ -12,5 +12,5 @@ color: ${props => props.accent
   : COMPOSITION_CONFIG.TEXT.COLOR.REGULAR};
 font-size: ${COMPOSITION_CONFIG.TEXT.FONT_SIZE.LARGE};
 font-weight: bold;
-font-family: "Comic Sans MS, cursive, sans-serif";
+font-family: Comic Sans MS, cursive, sans-serif;
 `
