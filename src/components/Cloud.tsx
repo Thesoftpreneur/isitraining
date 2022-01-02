@@ -28,7 +28,7 @@ export const Cloud: React.FunctionComponent<CloudProps> = ({
     rotate = 0,
 }) => (
         <BaseCloud src={Images.Cloud}
-        style={{transform: `translateX{${translateX}px} translateY{${translateY}px} scale{${scale}} rotate{${rotate}deg}`,
+        style={{transform: `translateX(${translateX}px) translateY(${translateY}px) scale(${scale}) rotate(${rotate}deg)`,
     }}/>
 )
 
