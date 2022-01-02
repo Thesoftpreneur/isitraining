@@ -3,6 +3,7 @@ import {APP_CONFIG, COMPOSITION_CONFIG} from '../config';
 import {useTranslations} from "../hooks";
 import {VideoBackground} from "./VideoBackground";
 import {Cloud} from "./Cloud";
+import { Title } from "./typography";
 
 export const IsItRaining = () => {
     const {CITY} = APP_CONFIG
@@ -11,14 +12,17 @@ export const IsItRaining = () => {
     return (
         <VideoBackground backgroundColor={VIDEO.BACKGROUND_COLOR}>
 
-            <h1
-                style={{
-                    fontSize: TEXT.FONT_SIZE.LARGE,
-                    color: TEXT.COLOR.REGULAR
-                }}>
+            <Title>
                 {T.intro.question}
-            </h1>
-            <Cloud/>
+            </Title>
+            <Cloud
+            translateX={20}
+            translateY={-20}
+            scale={2}
+            rotate={-10}/>
+            <Cloud
+            translateX={150}
+            translateY={-100}/>
         </VideoBackground>
     )
 }

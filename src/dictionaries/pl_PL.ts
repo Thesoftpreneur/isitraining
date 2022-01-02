@@ -1,5 +1,5 @@
 export const pl_PL = {
-    intro: {question: "Czy pada dzisiaj w Rzesiowie"}
+    intro: {question: "Czy pada dzisiaj w Rzeszowie"}
 }//,
     // common: {
     // celsius: "°C",
